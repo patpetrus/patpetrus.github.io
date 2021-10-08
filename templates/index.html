@@ -9,37 +9,51 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    <!-- Boostrap Stylesheet -->
    <link rel="stylesheet" href="bootstrap.min.css" media="screen">
-   <link rel="stylesheet" href="/static/style.css">
+   <link rel="stylesheet" href="static/style.css">
+
 </head>
 <body>
     <div class="head">
-        <div class="image">
-            <img src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.6435-9/241112551_4452265461500167_4780547160928335592_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_ohc=-_HGOHSKIhwAX921mck&_nc_ht=scontent-ort2-1.xx&oh=4559a4129578c9a0cca1f8b4a6e75976&oe=615E73D6" alt="profile" style="width:240px;height:240px;">
+        <div class="image col text-center">
+            <img src="static/talking.jpg" alt="profile" style="width:240px;height:240px;">
         </div>
-        <section>
-            <h1 class="name">Pat Petrus</h1>
+    </div>
+  
+    <div class="border-bottom bg-light p-5 luxury container">
+        <div class="row border-bottom bg-light p-5">
+            <div class="col text-center">
+                <h1 class="text-black">Pat Petrus</h1>
+                <h2 class="headline">Data Analyst in New York, NY</h2>
+            </div>
+        </div>
+        <section class="spotlight col text-center">
+            <a href="https://github.com/patpetrus"target="_blank" rel="noopener noreferrer"><button class="btn" style="width:100%">👨🏻‍💻 View my portfolio</button></a>
         </section>
-        <section>
-            <h2 class="headline">Data Analyst in New York, NY</h2>
+        <section class="spotlight col text-center">
+            <a href="https://www.linkedin.com/in/patpetrus/"target="_blank" rel="noopener noreferrer"><button class="btn" style="width:100%">👨🏻‍💻 View my LinkedIn</button></a>
+        </section>
+        <section class="bio row">
+            <div class="col text-center bio-text">
+                <p>Hi there, thanks for checking out my page!</p> 
+                <p>My name's Pat. I'm a data nerd and full stack developer looking for work in New York. 
+                    I'm also a novelist, freelance musician, and avid 5k'er.
+                    Check out my work portfolio and my LinkedIn using the button above, or browse my outside-of-work work using the links below.</p>
+            </div>
         </section>
 
+        <section class="interests row">
+            <div class="col-6">
+                <a href="https://www.amazon.com/Pastorality-Pat-Petrus/dp/B08J5HLJRK" target="_blank" rel="noopener noreferrer"><button class="btn2 btn-primary btn-block"> 📚 "Pastorality" short story collection</button></a>
+            </div>
+            <div class="col-6">
+                <a href="https://open.spotify.com/artist/0iUq8f4xeXayVAfxi08xTv?si=aAFc8jGLQmWPaea1T2iTRg&dl_branch=1" target="_blank" rel="noopener noreferrer"><button class="btn2 btn-primary btn-block"> 🎵 "Pat Petrus Quintet" jazz album</button></a>
+            </div>
+            <!-- <div class="btn2"><a href="https://www.youtube.com/watch?v=Ckz3Wd4GGdU" target="_blank" rel="noopener noreferrer"> 🥁 "We Believe in Aliens" covers Matt Maltese</a></div> </!-->
+        </section>  
+            
+        </section>
+       
     </div>
-    <div class=body>
-        <section class="spotlight">
-            <a href="https://github.com/patpetrus" target="_blank" rel="noopener noreferrer" class="button large dark primary" style="background-color:#006B96;border-color:#006B96">👨🏻‍💻 View my portfolio</a>
-        </section>
-        <section class="bio">
-            <p>this is where the bio goes!</p>
-        </section>
-        <section class="interests">
-            <p>links to music and writing projects go here!</p>
-        </section>
-        <section class="work">
-            <p>linkedin, github, and other work accounts go here</p>
-        </section>
-        <section class="social_links">
-            <p>socials go here</p>
-        </section>
-    </div>
+    <div class="footer"></div>
 </body>
 </html>
