@@ -1,2 +1,2 @@
-# website_updated
-Updated website using React
+# website
+Here's the code for my landing page! Check it out!
