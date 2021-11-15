@@ -31,7 +31,7 @@
     }
 
 body {
-  background-image: linear-gradient(to bottom right, hsl(226, 58%, 54%), rgb(255, 255, 255));
+  background-image: linear-gradient(to bottom right, hsl(0, 0%, 45%), rgb(255, 255, 255));
   }
 
     /* Style buttons */
@@ -61,7 +61,11 @@ body {
   
   /* lighter background on mouse-over */
   .btn:hover {
-    background-color: hsl(234, 100%, 90%);
+    background-color: hsl(0, 0%, 45%);
+    color: white;
+  }
+  .btn2:hover {
+    background-color: hsl(0, 0%, 45%);
     color: white;
   }
 
